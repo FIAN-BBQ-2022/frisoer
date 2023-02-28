@@ -17,7 +17,40 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Termin Buchung</title>
 
+
 </head>
+<style>
+    * {
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    h1 {
+        color: white;
+    }
+
+
+  /*   * {
+        text-shadow: 1px 1px 2px black;
+        font-weight: 900;
+        font-size: 18px;
+        color: white;
+    } */
+
+    tbody {
+        text-shadow: 1px 1px 1px black;
+        color: white;
+    }
+
+    body {
+        background-image: url("https://www.friseurinnung-rems-murr.de/fileadmin/_processed_/d/e/csm_AdobeStock_297675193_sk_768c3bab31.jpg");
+    }
+
+    input:hover, button:hover {
+        background-color: lightblue;
+        border-style: solid;
+    }
+</style>
 
 <body onload="loadDoc(loadCurrentMonday())">
 <div style="height: 100px">

@@ -17,6 +17,9 @@
 
     body {
         background-image: url("https://i.pinimg.com/originals/86/c6/a8/86c6a89a391eb2993428def042e57ee9.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #2d2d29;
     }
 
     input, button {
